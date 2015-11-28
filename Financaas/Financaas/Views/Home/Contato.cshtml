@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Contato";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+</hgroup>
+
+<section class="contato">
+    <header>
+        <h3>Telefone</h3>
+    </header>
+    <p>
+        <span class="label">Numero:</span>
+        <span>(61)00000000</span>
+    </p>
+</section>
+<section class="contato">
+    <header>
+        <h3>Email</h3>
+    </header>
+    <p>
+        <span class="label">Suporte</span>
+        <span><a href="mailto:Suporte@exemplo.com">Suporte@exemplo.com</a></span>
+    </p>
+    <p>
+        <span class="label">Anuncio</span>
+        <span><a href="mailto:Anuncio@exemplo.com">Anuncio@exemplo.com</a></span>
+    </p>
+</section>
+<section class="contato">
+    <header>
+        <h3>Endereço</h3>
+    </header>
+    <p>
+        By Real Deal Finanças!!<br />
+        <br />
+        Brasília - DF, Cep 00000-0000
+    </p>
+</section>
+
+<aside>
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Pagina Inicial", "Index", "Home")</li>
+    </ul>
+</aside>
+
